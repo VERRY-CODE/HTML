@@ -1,0 +1,214 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EEEEEE;
+}
+.topbar {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #393E46;
+    width: 800px;
+    margin:20px  auto;
+    z-index: 999;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    opacity: 0.6;
+    box-shadow: -3px 14px 13px -7px rgba(0,0,0,0.24);
+    -webkit-box-shadow: -3px 14px 13px -7px rgba(0,0,0,0.24);
+    -moz-box-shadow: -3px 14px 13px -7px rgba(0,0,0,0.24);
+    border-radius: 20px;
+}
+
+.topbar ul {
+    font-size: 13px;
+    display: flex;
+    padding: 19px;
+    justify-content: space-around;
+}
+
+.topbar a {
+    text-decoration: none;
+    color:#EEEEEE ;
+}
+
+
+
+.social a {
+    color: black;
+}
+
+.social a:hover {
+    transform: scale(1.4);
+    transition: ease-in-out 0.5s;
+}
+
+
+
+
+
+
+
+
+
+.social {
+    width: 300px;
+    font-size: 40px;
+    margin: 20px auto;
+    display: flex;
+    position: relative;
+    top: -80px;
+    gap: 80px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+.bio {
+    padding: 200px;
+}
+
+
+.bio h2 {
+    padding-bottom: 10px;
+    font-family: "Kode Mono", monospace;
+     font-optical-sizing: auto;
+     font-weight: weight;
+    font-style: normal;
+    color: #393E46;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 3px 1px 10px rgba(114,98,98,0.51);
+}
+
+.bio h4 {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #393E46;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.bio p {
+    margin-top: 10px;
+    text-indent: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+.logo {
+    background-color: #393E46;
+    display: flex;
+    width: 700px;
+    padding: 30px;
+    margin: 30px auto;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: -3px 14px 13px -7px rgba(0,0,0,0.24);
+    -webkit-box-shadow: -3px 14px 13px -7px rgba(0,0,0,0.24);
+    -moz-box-shadow: -3px 14px 13px -7px rgba(0,0,0,0.24);
+}
+
+.logo img {
+    margin-top: 10px;
+    padding: 20px;
+    width: 80px;
+
+}
+
+
+.skill {
+    margin-top: 400px;
+    text-align: center;
+}
+
+
+.skill p {
+    text-shadow: 3px 4px 8px rgb(159, 169, 168);
+    color: #EEEEEE;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.contact {
+    padding: 70px;
+    border-radius: 20px;
+    background-color: #393E46;
+    width: 600px;
+    margin: 300px auto;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: #EEEEEE;
+    height: 200px;
+    box-shadow: -3px 14px 13px -7px rgba(0,0,0,0.24);
+    -webkit-box-shadow: -3px 14px 13px -7px rgba(0,0,0,0.24);
+    -moz-box-shadow: -3px 14px 13px -7px rgba(0,0,0,0.24);
+}
+
+
+.contact h3 {
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 100px;
+}
